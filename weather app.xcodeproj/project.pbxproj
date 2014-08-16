@@ -12,6 +12,8 @@
 		BAE9CFA2199F24BA00D771DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE9CFA0199F24BA00D771DE /* Main.storyboard */; };
 		BAE9CFA4199F24BA00D771DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE9CFA3199F24BA00D771DE /* Images.xcassets */; };
 		BAE9CFB0199F24BA00D771DE /* weather_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9CFAF199F24BA00D771DE /* weather_appTests.swift */; };
+		BAE9CFBA199F335200D771DE /* rainy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE9CFB9199F335200D771DE /* rainy-icon.png */; };
+		BAE9CFBC199F367900D771DE /* weather-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE9CFBB199F367900D771DE /* weather-background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		BAE9CFA9199F24BA00D771DE /* weather appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9CFAE199F24BA00D771DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE9CFAF199F24BA00D771DE /* weather_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_appTests.swift; sourceTree = "<group>"; };
+		BAE9CFB9199F335200D771DE /* rainy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainy-icon.png"; sourceTree = "<group>"; };
+		BAE9CFBB199F367900D771DE /* weather-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "weather-background.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		BAE9CF99199F24BA00D771DE /* weather app */ = {
 			isa = PBXGroup;
 			children = (
+				BAE9CFBB199F367900D771DE /* weather-background.jpg */,
+				BAE9CFB9199F335200D771DE /* rainy-icon.png */,
 				BAE9CF9C199F24BA00D771DE /* AppDelegate.swift */,
 				BAE9CF9E199F24BA00D771DE /* ViewController.swift */,
 				BAE9CFA0199F24BA00D771DE /* Main.storyboard */,
@@ -189,7 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE9CFBA199F335200D771DE /* rainy-icon.png in Resources */,
 				BAE9CFA2199F24BA00D771DE /* Main.storyboard in Resources */,
+				BAE9CFBC199F367900D771DE /* weather-background.jpg in Resources */,
 				BAE9CFA4199F24BA00D771DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
