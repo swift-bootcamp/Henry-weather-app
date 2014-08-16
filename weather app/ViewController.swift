@@ -18,6 +18,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //background image
+        let background = UIImage(named: "weather-background.jpg")
+        self.view.backgroundColor = UIColor(patternImage: background)
+        
         self.city.text = "Taipei"
         self.country.text = "Taiwan"
         
